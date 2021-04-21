@@ -1,0 +1,131 @@
+* {
+font-family: Helvetica, sans-serif;
+
+}
+h1, h2 {
+text-align: center;
+font-family: 'Poiret One', sans-serif;
+font-size: 50px;
+
+}
+h2 {
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0.08em;
+}
+
+/*=====Подраздел promo=====*/
+.promo {
+/*padding-top: 200px;
+padding-bottom: 200px;*/
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 85vh;
+background-image: url(img/header.png);
+color: white;
+margin: 0 500px;
+}
+
+
+nav {
+position: sticky;
+top: 0;
+padding-top: 30px;
+padding-bottom: 30px;
+background-color: #ccc69a;
+margin: 0 100px;
+}
+nav ul {
+display: flex;
+max-width: 980px;
+margin:0 auto;
+list-style: none;
+justify-content: space-around;
+}
+nav li {
+
+}
+nav {
+width: 47%;
+margin: 0 500px;
+background: #000000;
+padding: 20px 0;
+box-shadow: 0px 0px 0px #dedede;
+}
+nav ul {
+list-style: none;
+text-align: center;
+justify-content: space-around;
+display: flex;
+}
+nav ul li {
+display: inline-block;
+}
+nav ul li a {
+display: block;
+padding: 15px;
+text-decoration: none;
+color: #ffffff;
+font-weight: 800;
+text-transform: uppercase;
+
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+transition: all .5s;
+}
+nav ul li a:hover {
+color:#00CCFF;
+}
+
+
+nav.circle ul li a {
+position: relative;
+overflow: hidden;
+z-index: 1;
+background-color: black;
+}
+
+
+.cloud{
+margin-left: 500px;
+margin-top: 100px;
+margin-right: 500px;
+margin-bottom: 100px;
+justify-content: space-around;
+}
+.cloud-img{
+padding-right:20px;
+}
+
+.bridge-img{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 85vh;
+background-image: url(img/footer.png);
+color: white;
+margin: 0 500px;
+
+}
+.bridge-text{
+text-align: center;
+font-family: 'Poiret One', sans-serif;
+font-size: 20px;
+
+}
+
+footer{
+	display: flow-root;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 10vh;
+background-color: black;
+color: white;
+margin: 0 500px;
+}
